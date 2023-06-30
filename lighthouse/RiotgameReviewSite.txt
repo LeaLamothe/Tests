@@ -1,0 +1,19 @@
+Performance is at 25
+- Images too heavy, too many images in non next-gen formats.
+- 3.45s of loading just because of the unused javascript
+- a third party code blocked the main thread for 2,000ms it could be reduced
+- enormous network payload could be reduced.
+- the javascript execution time almost take 6s
+
+Accessibility 88:
+- The images do not have alt attributes 
+- The links don't have discernible names (just like in both our pages so far)
+
+
+Best Practices 83:
+- Some missing source maps
+- The unload event does not fire reliably and listening for it can prevent browser optimizations like the Back-Forward Cache.
+
+SEO 79:
+-Image elements no alt attributes
+-Links not descriptive enough.

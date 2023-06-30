@@ -1,0 +1,46 @@
+HOME PAGE
+
+For the performance:
+- One of the thing we could optimize first is the quantity of css files we have, having one css page and less javascripts files can reduce network's latency.
+- We could also try to optimize the critical rendering path to render the page faster by optimizing the code in our html,css and js.
+- Another way is rendering the necessary assets first and delaying the rest, making priorities for the render.
+- It goes faster to fetch certain things from a cache than a server directly. This could also improve performances.
+- Optimizing image size can also help by a lot, image size is one of the heaviest things and the format of those matters.
+- Reduce the number of http requests.
+- Minify your CSS and JavaScript files by removing unnecessary characters, spaces, and comments.
+- For tbt we could break long task in smaller parts to make them more manageable 
+- CLS on the website looks great.
+
+Accessibility:
+
+- Make the button have an accessible name because it is called buttons, people relying on screen readers will only see button and not what the button is meant to do.
+-Change the links so it represent better the content displaying on screen.
+
+Best Practices: 
+-Overall pretty good
+- There are a few browser errors that could be fixed written in the console but nothing too disruptive.
+
+SEO
+-100%
+
+
+LOGIN PAGE
+
+Performance:
+
+the same things can be done for the performance but a recap.
+
+- Minify the javascript and clean up the unused JavaScript.
+- Change the image formats for nextGen formats.
+- Eleminate the render blocking resources.
+
+Accessibility:
+
+- The elements of the form don't have associated names in the code even if they are displayed on top it could be added.
+- Also change the link to something more appropriate (localhost)
+
+Best Practices:
+- No issue is at 100%
+
+SEO:
+- No issue is at 100%
